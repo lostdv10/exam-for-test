@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "isolatedModules":false,
+    "strict":true,
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "types": [
+      "element-plus/global",
+      "jquery",
+    ],
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
