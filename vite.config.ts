@@ -13,7 +13,7 @@ export default defineConfig({
   // ...
   //base: path.resolve(__dirname, './dist/'),	// 新增
   server:{
-    host:'localhost',
+    host:'0.0.0.0',//所有ip均可访问
     port:5174,
     
     hmr:{

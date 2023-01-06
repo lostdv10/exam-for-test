@@ -7,7 +7,9 @@
 ## 🚀 项目运行
 ```
 npm install
-npm run serve
+npm run dev
+//如需启用electron,使用第二个cmd窗口运行
+npm start
 ```
 
 ## 📚 功能列表
